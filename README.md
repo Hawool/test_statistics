@@ -4,7 +4,7 @@
 - git clone https://github.com/Hawool/test_statistics.git
 - cd test_statistics
 - docker-compose up -d --build
-- docker-compose exec web python manage.py migrate --noinput
+- docker-compose exec api python manage.py migrate --noinput
 
 Затем можно открыть в браузере http://0.0.0.0:8000/
 
